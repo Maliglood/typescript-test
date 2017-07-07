@@ -9,6 +9,12 @@
         this.span = document.createElement('span');
         this.element.appendChild(this.span);
         this.span.innerText = new Date().toUTCString();
+        let userInfo: [string, number];
+        userInfo = ["Tom", 28];
+        userInfo[2] = "37";
+        let userInfo2: [string, number];
+        userInfo2 = userInfo[2];
+        console.log(userInfo2);
     }
 
     start() {

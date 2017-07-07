@@ -1,0 +1,6 @@
+C:\Users\ZaharovA\WorkTFS\typescript-test\bin\typescript-test.dll.config
+C:\Users\ZaharovA\WorkTFS\typescript-test\bin\typescript-test.dll
+C:\Users\ZaharovA\WorkTFS\typescript-test\bin\typescript-test.pdb
+C:\Users\ZaharovA\WorkTFS\typescript-test\obj\Debug\typescript-test.csprojResolveAssemblyReference.cache
+C:\Users\ZaharovA\WorkTFS\typescript-test\obj\Debug\typescript-test.dll
+C:\Users\ZaharovA\WorkTFS\typescript-test\obj\Debug\typescript-test.pdb
