@@ -24,14 +24,31 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="index.html" />
+    <Content Include="Scripts\libs\backbone-babysitter\backbone.babysitter.min.js" />
+    <Content Include="Scripts\libs\backbone-wreqr\backbone.wreqr.js" />
+    <Content Include="Scripts\libs\backbone-wreqr\backbone.wreqr.min.js" />
+    <Content Include="Scripts\libs\backbone\backbone-min.js" />
+    <Content Include="Scripts\libs\backbone\backbone.js" />
+    <Content Include="Scripts\libs\jquery\jquery-ui.min.js" />
+    <Content Include="Scripts\libs\jquery\jquery.2.1.1.min.js" />
+    <Content Include="Scripts\libs\marionette\backbone.marionette.js" />
+    <Content Include="Scripts\libs\marionette\backbone.marionette.min.js" />
+    <Content Include="Scripts\libs\require\r.js" />
+    <Content Include="Scripts\libs\require\require.js" />
+    <Content Include="Scripts\libs\require\text.js" />
+    <Content Include="Scripts\libs\underscore\underscore.js" />
+    <Content Include="Scripts\libs\underscore\underscore.min.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="Scripts\app\app.ts" />
     <TypeScriptCompile Include="example.ts" />
+    <TypeScriptCompile Include="Scripts\views\testView.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="tsconfig.json" />
+    <Content Include="Scripts\libs\backbone-wreqr\backbone.wreqr.map" />
+    <Content Include="Scripts\libs\backbone\backbone-min.map" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -39,6 +56,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
@@ -72,8 +90,8 @@
     <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
     <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
     <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
-    <TypeScriptModuleKind />
-    <TypeScriptOutFile>script.js</TypeScriptOutFile>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+    <TypeScriptOutFile>Scripts/app/main.js</TypeScriptOutFile>
     <TypeScriptOutDir />
     <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
     <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>

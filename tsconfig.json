@@ -4,14 +4,14 @@
     "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,
-    "target": "es5",
-    "outFile": "script.js"
+    //"outFile": "Scripts/app/main.js",
+    "target": "es5"
   },
   "exclude": [
     "node_modules",
     "wwwroot"
   ],
   "files": [
-    "app.ts"
+    "Scripts/app/app.ts"
   ]
 }
