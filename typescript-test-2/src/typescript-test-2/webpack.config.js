@@ -1,4 +1,6 @@
-﻿"use strict";
+﻿/// <binding BeforeBuild='Run - Development' ProjectOpened='Watch - Development' />
+"use strict";
+
 var path = require('path');
 var webpack = require('webpack');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
@@ -7,11 +9,11 @@ module.exports = {
     entry: "./Scripts/app.ts",
 
     resolve: {
-        extensions: ['', '.ts', '.js', '.json', '.css', '.html'],
+        extensions: ['', '.ts', '.js', '.json', '.css', '.html']
     },
 
     output: {
-        path: "./wwwroot",
+        path: path.join(__dirname, "./wwwroot/"),
         filename: "main.js"
     },
 
