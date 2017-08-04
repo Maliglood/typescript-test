@@ -6,7 +6,7 @@ var webpack = require('webpack');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: "./Scripts/app.ts",
+    entry: "./app.ts",
 
     resolve: {
         extensions: ['', '.ts', '.js', '.json', '.css', '.html']
