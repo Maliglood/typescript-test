@@ -1,5 +1,6 @@
 ﻿{
   "ambientDependencies": {
-    "backbone.marionette": "https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/backbone.marionette/index.d.ts#f3b410c756d251d16c1c67910ec50f27d3c65d01"
+    //"backbone": "",
+    //"backbone.marionette": "github:DefinitelyTyped/DefinitelyTyped/blob/master/types/backbone.marionette/index.d.ts#f3b410c756d251d16c1c67910ec50f27d3c65d01"
   }
 }

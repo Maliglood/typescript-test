@@ -41,6 +41,7 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="example2.ts" />
     <TypeScriptCompile Include="Scripts\app\app.ts" />
     <TypeScriptCompile Include="example.ts" />
     <TypeScriptCompile Include="Scripts\views\testView.ts" />
