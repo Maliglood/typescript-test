@@ -1,9 +1,8 @@
 "use strict";
 var testView_1 = require("./Scripts/views/testView");
-var testViewAll = require("./Scripts/views/testView");
-var Marionette = require("backbone.marionette.js");
+var $ = require("jquery");
+//import * as Mar from "backbone.marionette";
 var testView = new testView_1.testViewClass();
 testView.sayHello();
-var testView2 = new testViewAll.testViewClass();
-testView2.sayTsIsCool();
+$("#jquery-test").html("It's jQuery test");
 //# sourceMappingURL=app.js.map
